@@ -1,0 +1,21 @@
+{
+  "name": "sample-app",
+  "homepage": "https://github.com/delwar2016/react-twitter-feed",
+  "authors": [
+    "Md. Delwar Hossain <twinkle_023020@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.3.1"
+  }
+}

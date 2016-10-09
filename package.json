@@ -1,0 +1,24 @@
+{
+  "name": "react-twitter-feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delwar2016/react-twitter-feed.git"
+  },
+  "author": "Md. Delwar Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delwar2016/react-twitter-feed/issues"
+  },
+  "homepage": "https://github.com/delwar2016/react-twitter-feed#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser": "^1.4.3"
+  }
+}
