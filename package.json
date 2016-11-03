@@ -16,7 +16,9 @@
     "body-parser": "^1.15.2",
     "express": "4.13.3",
     "foreman": "1.4.1",
-    "fs": "0.0.2"
+    "fs": "0.0.2",
+    "moment": "^2.15.2",
+    "mongoose": "^4.6.5"
   },
   "scripts": {
     "start": "nf start -p 3000",
