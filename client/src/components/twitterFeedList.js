@@ -1,8 +1,18 @@
+/**
+ * Md. Delwar Hossain
+ * Created Date: 01, Dec-2016
+ *
+ */
+
 import React from 'react';
 import TwitterFeed from '../components/twitterFeed';
 
 const TwitterFeedList = React.createClass({
 
+  /**
+   * render all the twitter feed
+   * @returns {XML}
+   */
   render: function () {
     let twitterFeedNodes = this.props.twitterFeeds.map(function(feed){
       return (

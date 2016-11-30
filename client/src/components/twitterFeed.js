@@ -1,7 +1,17 @@
+/**
+ * Md. Delwar Hossain
+ * Created Date: 01, Dec-2016
+ *
+ */
+
 import React from 'react';
 import TimeAgo from 'react-timeago';
 
 const TwitterFeed = React.createClass({
+  /**
+   * render twitter feed
+   * @returns {XML}
+   */
   render: function () {
     return (
       <div class='twitter-feed'>

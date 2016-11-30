@@ -1,6 +1,16 @@
+/**
+ * Md. Delwar Hossain
+ * Created Date: 01, Dec-2016
+ *
+ */
+
 import React from 'react';
 
 const TwitterFeedForm = React.createClass({
+  /**
+   * submit feed for saving
+   * @param e
+   */
   onPostTwitterFeed: function(e){
     e.preventDefault();
     let feed = this.refs.feed;
@@ -8,9 +18,13 @@ const TwitterFeedForm = React.createClass({
     feed.value = "";
   },
 
+  /**
+   * render twitter feed form
+   * @returns {XML}
+   */
   render: function () {
     return (
-      <div id='comment-form'>
+      <div id='twitter-feed-form'>
         <div className="row">
           <div className="col-md-12">
            <textarea  ref="feed" id="feed"  className="form-control" placeholder="Write something here" />
