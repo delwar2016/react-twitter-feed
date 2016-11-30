@@ -4,13 +4,13 @@ window.$ = window.jQuery=jquery;
 import tether from 'tether';
 window.Tether = tether;
 
-import TwitterFeed from './components/twitterFeed';
+import TwitterFeedContainer from './components/twitterFeedContainer';
 
 
 class App extends Component {
   render() {
     return (
-      <TwitterFeed/>
+      <TwitterFeedContainer/>
     );
   }
 }
